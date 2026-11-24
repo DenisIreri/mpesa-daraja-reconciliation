@@ -1,5 +1,7 @@
 # M-Pesa STK Push with reconciliation (TypeScript)
 
+![Flow: STK Push, Daraja, token-checked callback, ledger, and a reconciliation report that flags duplicates, wrong amounts, double payments and lost callbacks](docs/thumbnail.png)
+
 Taking an M-Pesa payment is the easy part. Keeping the books right afterwards is
 where most integrations go wrong: Safaricom retries callbacks, customers pay the
 wrong amount or pay twice, and some callbacks never arrive.
